@@ -2,7 +2,7 @@ import escapeStringRegexp from 'escape-string-regexp';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
-import App from '../../components/app/App';
+import App from '../../App';
 
 const renderMiddleware = () => (req, res) => {
   let html = req.html;
