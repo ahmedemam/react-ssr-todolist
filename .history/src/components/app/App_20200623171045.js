@@ -7,7 +7,7 @@ import TodoListContextProvider from "../../context/TaskListContext";
 function App() {
   return (
     <TodoListContextProvider>
-      <div className="container">
+      <div className="App">
         <TodoList />
       </div>
     </TodoListContextProvider>
